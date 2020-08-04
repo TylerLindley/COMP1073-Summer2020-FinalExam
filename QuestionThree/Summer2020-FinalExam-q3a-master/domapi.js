@@ -8,7 +8,6 @@ addButton.onclick = (e) => {
         e.preventDefault();
         let li = document.createElement("li");
         let delButton = document.createElement("button");
-        let checkBox = document.createElement("input");
 
         let item = listItem.value;
         li.textContent = item;
